@@ -2,7 +2,7 @@ NAME	=	 libft.a
 
 CC	=	 gcc
 
-CFLAGS	=	 -Werror -Wall -Wextra
+CFLAGS	=	 -Werror -Wall -Wextra -MD
 
 AR	=	 ar -r
 
@@ -68,7 +68,7 @@ $(NAME)	: 	$(OBJS) libft.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean	:
-	rm -rf $(OBJS) $(OBJ_BONUS)
+	rm -rf $(OBJS) $(OBJ_BONUS) *.d
 
 fclean	: 	clean
 	rm -rf $(NAME)
