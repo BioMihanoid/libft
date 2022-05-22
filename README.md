@@ -20,4 +20,4 @@ cd libft
 make
 ```
 
-P.S. You get a libft.a file that can be used in your projects
+You get a libft.a file that can be used in your projects
