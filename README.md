@@ -1,7 +1,7 @@
 _This is a **21 School/Ecole 42** Project_
 
 # Libft
-Your very first own library
+My very first own library
 
 ## Description
 This project is about coding a C library.
